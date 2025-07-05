@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Landing Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #008080;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    .hero {
+      background: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #008080;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #006666;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+    }
+
+    .feature-box {
+      background: white;
+      flex: 1 1 250px;
+      margin: 10px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .feature-box h3 {
+      color: #008080;
+      margin-bottom: 10px;
+    }
+
+    .feature-box p {
+      font-size: 1rem;
+    }
+
+    .about {
+      padding: 40px 20px;
+      background-color: #fff;
+      text-align: center;
+    }
+
+    .about h2 {
+      margin-bottom: 20px;
+    }
+
+    .about p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .hero h2 {
+        font-size: 1.5rem;
+      }
+
+      .features {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to CreativeSpace</h1>
+    <p>Your one-stop destination to build and explore web creativity</p>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Design. Develop. Launch.</h2>
+    <p>Start your web development journey with hands-on practice and real-world design examples. Learn by doing.</p>
+    <a href="#features" class="btn">Get Started</a>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="feature-box">
+      <h3>Easy Layout</h3>
+      <p>Learn how to use Flexbox and Grid to create clean and responsive layouts.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Clean Design</h3>
+      <p>Use CSS best practices for beautiful, consistent, and user-friendly interfaces.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Creative Practice</h3>
+      <p>Apply your creativity and build modern web pages with custom styles and themes.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>Why Build a Landing Page?</h2>
+    <p>A landing page project helps you master the basics of HTML and CSS. It teaches you to structure content, use alignment and spacing properly, and ensure a smooth user experience. It’s the perfect start for future web design and development projects.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 CreativeSpace. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
